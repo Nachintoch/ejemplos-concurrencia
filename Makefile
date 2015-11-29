@@ -8,8 +8,8 @@
 # variables de compilación
 CC = gcc
 JC = javac
-# note las banderas -ffixed-reg para gcc
-CCFLAGS = -c -I ./include/ -O2 -ffunction-sections -fdata-sections -funit-at-a-time -ffixed-eax -ffixed-ebx -ffixed-ecx -ffixed-edx
+
+CCFLAGS = -c -I ./include/ -O2 -ffunction-sections -fdata-sections -funit-at-a-time
 JCFLAGS = -d bin
 
 all :
